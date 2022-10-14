@@ -25,7 +25,9 @@ public class AutoMorphic {
 			System.out.println("AutoMorphic");
 		}
 		else
-			System.out.println("Not Automorphic");
+	      System.out.println("Not Automorphic");
+		
+	  
 	}
 
 }

@@ -1,0 +1,31 @@
+package com.day21String;
+
+import java.util.Scanner;
+
+public class pattern {
+	
+	public static void pattern(String s)
+	{
+		String st[]=s.split("\\s");
+		
+		for(int i=0;i<st.length;i++)
+		{
+			for(int j=0;j<=i;j++)
+			{
+				System.out.print(st[j]+" ");
+			}
+			System.out.println();
+		}
+	}
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter String");
+		String st=sc.nextLine();
+		
+		pattern(st);
+		
+
+	}
+
+}
